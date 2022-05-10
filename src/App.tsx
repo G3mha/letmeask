@@ -1,10 +1,11 @@
-import { Button } from './components/Button' // named export
 import { Home } from './pages/Home'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <Home />
+    <BrowserRouter>
+        <Home />
+    </BrowserRouter>
   );
 }
-
 export default App;
